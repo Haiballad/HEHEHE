@@ -1,0 +1,24 @@
+# Sử dụng hình ảnh .NET SDK để build ứng dụng
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+
+# Đặt thư mục làm việc
+WORKDIR /app
+
+# Sao chép file .csproj vào container và restore các gói
+COPY *.csproj ./
+RUN dotnet restore
+
+# Sao chép tất cả các file còn lại và build ứng dụng
+COPY . ./
+RUN dotnet publish -c Release -o out
+
+# Sử dụng hình ảnh .NET runtime để chạy ứng dụng
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+WORKDIR /app
+EXPOSE 80
+
+# Sao chép ứng dụng đã build vào container
+COPY --from=build /app/out .
+
+# Chạy ứng dụng
+ENTRYPOINT ["dotnet", "ASM.dll"]

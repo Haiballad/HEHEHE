@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\as\\OneDrive\\Desktop\\back_end\\ASM2\\ASM\\ASM.csproj": {}
+    "C:\\Users\\as\\OneDrive\\Desktop\\back_end\\ASM2 - Copy\\ASM\\ASM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\as\\OneDrive\\Desktop\\back_end\\ASM2\\ASM\\ASM.csproj": {
+    "C:\\Users\\as\\OneDrive\\Desktop\\back_end\\ASM2 - Copy\\ASM\\ASM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\as\\OneDrive\\Desktop\\back_end\\ASM2\\ASM\\ASM.csproj",
+        "projectUniqueName": "C:\\Users\\as\\OneDrive\\Desktop\\back_end\\ASM2 - Copy\\ASM\\ASM.csproj",
         "projectName": "ASM",
-        "projectPath": "C:\\Users\\as\\OneDrive\\Desktop\\back_end\\ASM2\\ASM\\ASM.csproj",
+        "projectPath": "C:\\Users\\as\\OneDrive\\Desktop\\back_end\\ASM2 - Copy\\ASM\\ASM.csproj",
         "packagesPath": "C:\\Users\\as\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\as\\OneDrive\\Desktop\\back_end\\ASM2\\ASM\\obj\\",
+        "outputPath": "C:\\Users\\as\\OneDrive\\Desktop\\back_end\\ASM2 - Copy\\ASM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\as\\AppData\\Roaming\\NuGet\\NuGet.Config",
